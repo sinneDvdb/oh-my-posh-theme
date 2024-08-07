@@ -200,6 +200,18 @@
           "NameLength": 0
         },
         {
+          "type": "kubectl",
+          "style": "diamond",
+          "invert_powerline": true,
+          "trailing_diamond": "\ue0b0\u2500\u256e",
+          "template":  "\uf308 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
+          "background": "#cddd3f",
+          "foreground": "#ffffff",
+          "Text": "",
+          "Duration": 0,
+          "NameLength": 0
+        },
+        {
           "type": "status",
           "style": "powerline",
           "powerline_symbol": "\ue0b2",
@@ -225,18 +237,6 @@
           "template": " {{ .CurrentDate | date .Format }} \uf017 ",
           "background": "#d3d7cf",
           "foreground": "#000000",
-          "Text": "",
-          "Duration": 0,
-          "NameLength": 0
-        },
-        {
-          "type": "kubectl",
-          "style": "diamond",
-          "invert_powerline": true,
-          "trailing_diamond": "\ue0b0\u2500\u256e",
-          "template":  "\uf308 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
-          "background": "#6d9dff",
-          "foreground": "#ffffff",
           "Text": "",
           "Duration": 0,
           "NameLength": 0
