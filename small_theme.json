@@ -77,6 +77,12 @@
             "style": "diamond",
             "template": " <#fff>\ue718</> {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
             "type": "node"
+          },
+          {
+            "foreground": "#BBC4B9",
+            "style": "diamond",
+            "template": "\uf308 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
+            "type": "kubectl"
           }
         ],
         "type": "prompt"
