@@ -91,7 +91,8 @@
             "template": "\uf308 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
             "type": "kubectl"
           }
-        ]
+        ],
+        "type": "prompt"
       },
       {
         "alignment": "left",
