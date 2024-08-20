@@ -90,7 +90,6 @@
             "leading_diamond": "\ue0b6",
             "style": "diamond",
             "template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
-            "trailing_diamond": "\ue0b4 ",
             "type": "python"
           }
         ],
