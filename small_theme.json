@@ -87,9 +87,8 @@
         "segments": [
           {
             "foreground": "#BFA8BF",
-            "leading_diamond": "\ue0b6",
             "style": "diamond",
-            "template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
+            "template": "\ue73c {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
             "type": "python"
           }
         ],
