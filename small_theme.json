@@ -83,6 +83,7 @@
       },
       {
         "alignment": "right",
+        "newline": true,
         "segments": [
           {
             "foreground": "#BFA8BF",
